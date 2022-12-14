@@ -40,9 +40,9 @@ namespace OpenPubli.Test
         [Test]
         public void SaveAsPdfTest()
         {
-            var appId = "b56d9611-c175-4d51-88e7-cfaa329560af";
-            var appSecret = "Ku88Q~BwMLEbOI1c.lqbnXumh-dAyH3vKLb0targ";
-            var tenantId = "361b8935-6c87-4fe7-9919-92c8c13b7190";
+            var appId = "[Votre appId]";
+            var appSecret = "[Votre appsecret]";
+            var tenantId = "[Votre tenantId]";
             Random rnd = new Random();
             char[] chars = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
             string randomString = "";
